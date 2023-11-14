@@ -1,0 +1,16 @@
+.seeon__text:after {
+  content: "";
+  height: 0.5px;
+  width: 40%;
+  display: block;
+  /* margin: 0 25px; */
+  background-color: #AAAAAA;
+}
+.seeon__text::before {
+  content: "";
+  height: 0.5px;
+  width: 40%;
+  /* margin: 0 25px; */
+  display: block;
+  background-color: #AAAAAA;
+}
