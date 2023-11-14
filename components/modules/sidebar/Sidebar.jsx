@@ -6,7 +6,7 @@ function Sidebar() {
   return (
     <div className="h-12 xl:h-screen border  w-full xl:w-12 xl:items-start xl:pt-2  bg-primary  flex items-center justify-center ">
       <input type="checkbox" id="sidebar-toggle" className={`${styles.sidebar__inputChek} position:absolute top-0 right-0 hidden`}/>
-      <label htmlFor="sidebar-toggle" className={`${styles.sidebar__label} relative w-full min-h-[1rem]  flex items-center justify-start z-50`}>
+      <label htmlFor="sidebar-toggle" className={`${styles.sidebar__label} relative w-full min-h-[1rem] cursor-pointer  flex items-center justify-start z-50`}>
         <div className={`${styles.sidebar__menuIcon} transition-all duration-75 h-0.5 w-6 bg-white mx-3 relative`}></div>
       </label>
 

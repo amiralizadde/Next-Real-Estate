@@ -3,7 +3,7 @@ import styles from "@/styles/Header.module.css";
 
 function Header() {
   return (
-    <div className="h-auto w-full sm:w-3/4 bg-[#101d2cef] p-8 xl:w-3/4">
+    <div className="h-auto w-full sm:w-3/4 bg-[#101d2cef] p-8 xl:w-3/4 xl:p-32">
       <div className=" flex flex-col items-center justify-center space-y-5">
         <img src="../img/logo.png" className="w-30 h-8 object-cover" alt="" />
         <h2 className="self-start text-primary text-base font-semibold">
@@ -12,7 +12,7 @@ function Header() {
         <p className="self-start text-white text-2xl font-semibold">
           با خرید خانه نهایت آزادی را احساس کنید
         </p>
-        <button className="self-start bg-primary text-white text-xs font-bold p-2 w-40 h-10">
+        <button className="self-start bg-primary text-white text-xs font-bold p-2 w-40 h-10 xl:text-base xl:w-60  xl:h-15">
           املاک را مشاهده کنید
         </button>
         <p  className={`${styles.seeon__text} hidden w-full text-center text-sm text-[#AAAAAA] sm:flex items-center justify-evenly`}>

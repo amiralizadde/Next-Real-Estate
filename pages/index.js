@@ -1,7 +1,12 @@
 import React from "react";
+import Features from "@/components/templates/Features";
 
 function index() {
-  return <h1 className="text-3xl font-bold underline">Hello world</h1>;
+  return (
+    <>
+      <Features />
+    </>
+  );
 }
 
 export default index;
