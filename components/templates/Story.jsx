@@ -4,7 +4,7 @@ function Story() {
   return (
     <div className="h-auto mt-10 columns-1 md:columns-2 md:flex md:items-stretch">
       {/* image Story */}
-      <div className="bg-primary px-12 py-6 relative md:pt-28 md:w-2/3">
+      <div className="bg-primary px-12 py-6 relative md:pt-28 md:w-3/4">
         <img src="../img/story-1.jpeg" alt="" />
         <img
           src="../img/story-2.jpeg"
