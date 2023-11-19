@@ -10,6 +10,7 @@ module.exports = {
   ],
   theme: {
     screens: {
+      'xs':"500px",
       'sm': '640px',
       'md': '768px',
       'lg': '1024px',
@@ -26,6 +27,7 @@ module.exports = {
       gridTemplateRows: {
         // Simple 8 row grid
         '7': 'repeat(7 , 4vw)',
+        '11': 'repeat(11 , 1fr)',
 
       }
     },
