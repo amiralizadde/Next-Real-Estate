@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "@/styles/Header.module.css";
+import Link from "next/link";
 
 function Header() {
   return (
@@ -12,9 +13,9 @@ function Header() {
         <p className="self-start text-white text-2xl font-semibold">
           با خرید خانه نهایت آزادی را احساس کنید
         </p>
-        <button className="self-start bg-primary text-white text-xs font-bold p-2 w-40 h-10 xl:text-base xl:w-60  xl:h-15">
+        <Link href="/homes" className="self-start bg-primary text-white text-xs font-bold p-2 w-40 h-10 xl:text-base xl:w-60  xl:h-15">
           املاک را مشاهده کنید
-        </button>
+        </Link>
         <p  className={`${styles.seeon__text} hidden w-full text-center text-sm text-[#AAAAAA] sm:flex items-center justify-evenly`}>
            دیده میشود در
         </p>

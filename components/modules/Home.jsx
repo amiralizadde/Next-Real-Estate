@@ -23,11 +23,11 @@ function Home(item) {
           <div className="h-1/2 w-full  flex flex-col justify-between ">
             <p className="flex justify-between child:w-1/2 mt-5 child:text-xs">
               <span className=" ">مکان</span>
-              <span className=" ">4اتاق</span>
+              <span className=" ">{roomCount}اتاق</span>
             </p>
             <p className="flex justify-between child:w-1/2 child:text-xs">
-              <span className=" ">400متر مربع</span>
-              <span className=" ">560میلیون تومان</span>
+              <span className=" ">{meterage}متر مربع</span>
+              <span className=" ">{price}میلیون تومان</span>
             </p>
             <Link href={`/homes/${id}`} className="bg-primary w-full text-white py-2 text-sm text-center">
               مشاهده ملک

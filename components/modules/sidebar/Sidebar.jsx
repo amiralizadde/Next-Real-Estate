@@ -15,7 +15,7 @@ function Sidebar() {
 
        <ul className=" child:p-2 child:bg-primary child:w-40 child:flex child:items-center child:justify-center child:m-8 child:cursor-pointer	child:text-white">
         <li>
-          <a href="#" className="text-sm">صفحه اصلی</a>
+          <a href="/" className="text-sm">صفحه اصلی</a>
         </li>
         <li>
           <a href="#" className="text-sm">ویزگی ها</a>
